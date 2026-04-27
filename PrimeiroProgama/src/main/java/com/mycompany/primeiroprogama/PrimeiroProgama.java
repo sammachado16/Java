@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.primeiroprogama;
 
-/**
- *
- * @author samma
- */
+import java.util.Date;
+
 public class PrimeiroProgama {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Olá Mundo!");
+        Date relogio = new Date();
+        System.out.println("A hora do sistema é");
+        System.out.println(relogio.toString());
     }
 }

@@ -82,7 +82,7 @@ public class TelaRelogio extends javax.swing.JFrame {
 
     private void btnBotaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBotaoActionPerformed
         Language lingua = new Language();
-        lblMensagem.setText(relogio.toString());
+        lblMensagem.setText(lingua.toString());
     }//GEN-LAST:event_btnBotaoActionPerformed
 
     /**
